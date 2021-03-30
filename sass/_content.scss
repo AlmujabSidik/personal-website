@@ -1,0 +1,186 @@
+@import "./mixins";
+
+
+// ===== INDEX
+main {
+    // ========= START BRAND ========== 
+    .brand {
+        margin-top: 90px;
+
+        @include mobile {
+
+            margin-top: 40px;
+
+            img {
+                margin-bottom: 20px;
+            }
+        }
+        
+        .p-primary {
+            margin-bottom: 40px;
+        }
+    }
+    // ========= END BRAND ========== 
+
+    // ========= START PROJECT ========== 
+    .project {
+
+        @include mobile {
+            .heading-2 {
+                font-size: 32px;
+            }
+
+            .heading-3 {
+                font-size: 28px;
+            }
+        }
+        .heading-2 {
+            margin-top: 112px;
+            margin-bottom: 16px;
+        }
+
+        img {
+            margin-top: 42px;
+        }
+
+        .heading-3 {
+            margin-top: 32px;
+        }
+
+    }
+    // ========= END PROJECT ========== 
+
+    // ========= START EXP ========== 
+    .exp {
+
+        margin-top: 112px;
+        .title-exp {
+            background-color: $color-primary;
+            padding: 156px 74px 156px 64px;
+            border-radius: 20px 0px 0px 20px;
+
+            @include mobile {
+                padding: 40px 40px;
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            @include tablet {
+                padding: 40px;
+            }
+
+            h2 {
+                color: #fff;
+                font: $Heading-2;
+
+                @include mobile {
+                    font-size: 26px;
+                    line-height: 40px;
+                }
+
+                @include tablet {
+                    font-size: 30px;
+                    line-height: 43px;
+                }
+            }
+        }
+
+        .img-exp {
+            background-color: #EEF5FF;
+            padding: 89px 74px 89px 64px;
+            border-radius: 0px 20px 20px 0px;
+
+            @include mobile {
+                padding: 40px 40px;
+                border-radius: 0px 0px 20px 20px;
+            }
+        }
+    }
+    // ========= END EXP ========== 
+
+    // ========= START TESTIMONIAL ========== 
+
+    .testimonial {
+        margin-top: 112px;
+
+        @include mobile {
+            .heading-2 {
+                font-size: 32px;
+            }
+        }
+        .testi {
+            background: #FFFFFF;
+            border: 1px solid #EDEDED;
+            border-radius: 8px;
+            padding: 25px 30px;
+
+            &:hover {
+                box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.20);
+            }
+            }
+
+            
+        
+    }
+    // ========= END TESTIMONIAL ========== 
+
+    // ========= START BLOG ========== 
+    .blog {
+        margin-top: 112px;
+
+        .card {
+            
+            @include mobile {
+                max-width: 100%;
+                margin-bottom: 20px;
+            
+            }
+
+            @include tablet {
+                max-width: 100%;
+
+                h4 {
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 14px;
+                }
+
+                 a{
+                     font-size: 14px;
+                 }
+
+                
+            }
+
+            border-radius: 20px;
+            overflow: hidden;
+
+                &:hover {
+                    box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.20);
+                }
+        }
+
+        
+    }
+    // ========= END BLOG ========== 
+
+
+
+
+
+
+
+}
+// ===== INDEX
+
+
+
+
+
+footer {
+    margin-top: 112px;
+    padding-top: 20px;
+    background-color: #01015E;
+}
+
+

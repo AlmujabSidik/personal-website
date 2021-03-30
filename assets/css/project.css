@@ -1,0 +1,26 @@
+
+.navbar .navbar-nav .nav-item a{
+    color: #3c50e0;
+}
+
+.navbar .navbar-nav  .nav-item .active {
+    color: #3c50e0;
+    font-weight: 700;
+}
+
+
+.heading-project img {
+    cursor: pointer;
+}
+
+
+
+@media (max-width:576px) {
+
+    main .heading-project .h1-costum {
+        font-size: 24px;
+    }
+    main .content-project .h2-costum {
+        font-size: 24px;
+    }
+}

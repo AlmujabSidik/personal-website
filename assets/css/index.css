@@ -1,0 +1,131 @@
+/* ====== Home ========= */
+
+header {
+    background-color: #DDFFFF;
+}
+
+.navbar .navbar-nav .nav-item a{
+    color: #3c50e0;
+}
+
+.navbar .navbar-nav  .nav-item .active {
+    color: #3c50e0;
+    font-weight: 700;
+}
+
+.hero p {
+    width: 64%;
+}
+
+main .brand .title-brand {
+    background-color: #01015e;
+    border-radius: 20px 0px 0px 20px;
+    padding: 156px 64px;
+}
+
+main .brand .img-brand {
+    background-color: #EEF5FF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/* tes */
+.testimonial .testi{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+}
+
+.testimonial .testi:hover {
+    box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.08);
+
+}
+
+/* ====== Home ========= */
+
+
+/* ========= PROJECT ==========*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    /* HERO */
+     .hero .h1-costum {
+        font-size: 32px;
+    }
+
+    .hero p {
+        width: 100%;
+        font-size: 16px;
+    }
+    /* HERO END */
+
+    /* BRAND */
+    main .brand .title-brand {
+        padding: 30px;
+        border-radius: 0;
+    }
+    main .brand .title-brand .h2-brand {
+            font-size: 32px;
+    }
+    main .brand .title-brand .p-brand {
+        font-size: 16px;
+    }
+
+    main .brand .img-brand {
+        border-radius: 0;
+    }
+    /* BRAND END */
+
+    /* PROJECT */
+    main .project .h2-costum {
+        font-size: 32px;
+    }
+    
+    main .project h3 {
+        font-size: 26px;
+    }
+    /* PROJECT END*/
+
+    /* EVENTS  */
+    main .events .card-red {
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+
+    main .events .card-blue {
+        padding: 30px;
+        border-radius: 0;
+    }
+    /* EVENTS END */
+
+    /* TESTIMONIAL */
+    .testimonial h2 {
+        font-size: 30px;
+    }
+    /* TESTIMONIAL */
+
+
+    /* ARTIKEL */
+    .artikel h2{
+        font-size: 30px;
+    }
+    /* ARTIKEL */
+
+
+}

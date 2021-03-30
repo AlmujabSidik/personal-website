@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Source+Sans+Pro&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+.heading-1 {
+  font: normal normal bold 64px/70px Inter, sans-serif;
+  color: #fff;
+}
+
+.heading-2 {
+  font: normal normal bold 48px/52px Inter, sans-serif;
+  color: #01015E;
+}
+
+.heading-3 {
+  font: normal normal bold 32px/35px Inter, sans-serif;
+  color: #01015E;
+}
+
+.heading-4 {
+  font: normal normal bold 24px/26px Inter, sans-serif;
+  color: #01015E;
+}
+
+.heading-blog {
+  font: normal normal bold 22px/26px Inter, sans-serif;
+  color: #01015E;
+}
+
+.p-primary {
+  font: normal normal regular 18px/27px Source Sans Pro, sans-serif;
+  color: #8f8f8f;
+}
+
+.btn.button-primary {
+  padding: 14px 28px;
+  border: none;
+  background-color: #f45b0f;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "Inter";
+  z-index: 1;
+}
+
+.btn.button-primary:hover {
+  box-shadow: 0px 8px 30px rgba(244, 91, 15, 0.47);
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+
+.btn.button-secondary {
+  padding: 14px 32px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "Inter";
+}
+
+.btn.button-secondary:hover {
+  background-color: #f45b0f;
+  box-shadow: 0px 8px 30px rgba(244, 91, 15, 0.47);
+  transform: scale(1.01);
+  transition: 0.3s;
+  color: #fff;
+  border: 1px solid #f45b0f;
+}
+
+.btn.button-third {
+  padding: 14px 28px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #F45B0F;
+  color: #F45B0F;
+  font-size: 18px;
+  transition: 0.3s;
+  font-family: "Inter";
+}
+
+.btn.button-third:hover {
+  background-color: #f45b0f;
+  box-shadow: 0px 8px 30px rgba(244, 91, 15, 0.47);
+  transform: scale(1.01);
+  transition: 0.3s;
+  color: #fff;
+  border: 1px solid #f45b0f;
+}
+
+header {
+  background: url(../assets/img/bg.png) no-repeat;
+  background-size: cover;
+  height: 822px;
+  margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 785px;
+  }
+}
+
+header .navbar {
+  padding-top: 50px;
+}
+
+header .navbar .navbar-nav .nav-item a {
+  font-family: "Inter";
+  color: #fff;
+  font-weight: normal;
+  color: #ff894e;
+}
+
+header .navbar .navbar-nav .nav-item a:hover {
+  color: #F45B0F;
+}
+
+header .navbar .navbar-nav .nav-item a.active {
+  color: #F45B0F;
+  font-weight: bold;
+}
+
+header .navbar-toggler:focus {
+  outline: none;
+}
+
+header .hero {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  header .hero .heading-1 {
+    margin-top: 20px;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  header .hero .heading-1 span {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  header .hero .p-primary {
+    font-size: 16px;
+  }
+  header .hero img {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .hero .heading-1 {
+    font-size: 40px;
+  }
+}
+
+header .hero .p-primary {
+  width: 75%;
+}
+
+header .hero img {
+  margin-top: 94px;
+}
+
+main .brand {
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  main .brand {
+    margin-top: 40px;
+  }
+  main .brand img {
+    margin-bottom: 20px;
+  }
+}
+
+main .brand .p-primary {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  main .project .heading-2 {
+    font-size: 32px;
+  }
+  main .project .heading-3 {
+    font-size: 28px;
+  }
+}
+
+main .project .heading-2 {
+  margin-top: 112px;
+  margin-bottom: 16px;
+}
+
+main .project img {
+  margin-top: 42px;
+}
+
+main .project .heading-3 {
+  margin-top: 32px;
+}
+
+main .exp {
+  margin-top: 112px;
+}
+
+main .exp .title-exp {
+  background-color: #01015E;
+  padding: 156px 74px 156px 64px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+@media (max-width: 768px) {
+  main .exp .title-exp {
+    padding: 40px 40px;
+    border-radius: 20px 20px 0px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main .exp .title-exp {
+    padding: 40px;
+  }
+}
+
+main .exp .title-exp h2 {
+  color: #fff;
+  font: normal normal bold 48px/52px Inter, sans-serif;
+}
+
+@media (max-width: 768px) {
+  main .exp .title-exp h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main .exp .title-exp h2 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+}
+
+main .exp .img-exp {
+  background-color: #EEF5FF;
+  padding: 89px 74px 89px 64px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+@media (max-width: 768px) {
+  main .exp .img-exp {
+    padding: 40px 40px;
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+
+main .testimonial {
+  margin-top: 112px;
+}
+
+@media (max-width: 768px) {
+  main .testimonial .heading-2 {
+    font-size: 32px;
+  }
+}
+
+main .testimonial .testi {
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  border-radius: 8px;
+  padding: 25px 30px;
+}
+
+main .testimonial .testi:hover {
+  box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.2);
+}
+
+main .blog {
+  margin-top: 112px;
+}
+
+main .blog .card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  main .blog .card {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main .blog .card {
+    max-width: 100%;
+  }
+  main .blog .card h4 {
+    font-size: 14px;
+  }
+  main .blog .card p {
+    font-size: 14px;
+  }
+  main .blog .card a {
+    font-size: 14px;
+  }
+}
+
+main .blog .card:hover {
+  box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 112px;
+  padding-top: 20px;
+  background-color: #01015E;
+}
+
+*, body {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=main.css.map */
